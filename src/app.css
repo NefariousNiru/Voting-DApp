@@ -1,0 +1,116 @@
+html{
+    background-color: #F6F5F5;
+}
+body{
+    background-color: #F6F5F5;
+    height: 100%;
+    width: 100%;
+}
+#header{
+    margin:18px;
+    margin-bottom: 10px;
+    padding:100px;
+    padding-top:50px;
+    padding-bottom: 30px;
+    font-family: 'Alata', sans-serif;
+    font-size:  70px;
+    font-weight: 400;
+    color:#BBBFCA;
+    letter-spacing: 0.5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;   
+}
+
+#loadingAddress{
+    font-family: 'Alata', sans-serif;
+    margin-bottom:10px;
+    padding-bottom:25px;
+    display: flex;
+    justify-content: center;
+    color: #BBBFCA;
+}
+
+thead th{
+    font-family: 'Alata', sans-serif;
+    font-size: 20px;
+
+}
+
+#content{
+    margin-left:10%;
+    margin-right:10%;
+    padding-left:15%;
+    padding-right:15%;
+    margin-bottom: 0;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#contestantResults{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight:400;
+    font-size: 30px;
+}
+
+#choice{
+    margin-left:5%;
+    margin-right:10%;
+    padding-left:10%;
+    padding-right:15%;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#castingvote{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top:30px;
+    padding-bottom:10px;
+}
+
+button{
+    background: none;
+    background-color: #32E0C4;
+    border :3px solid;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1em;
+    color: white;
+    border-radius: 10px;
+}
+
+button:hover{
+    border-color:#00626A;
+    color: black;
+    box-shadow: 0 1em 1em -0.4em #65013A ;
+    transform: translateY(-0.25em);
+    transition: 0.2s;
+}
+
+#contact{
+    margin-top: 40px;
+    margin-right:10px;
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: right;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+.contactimage{
+    padding: 5px;
+}
+.contactimage:hover{
+    transform:translateY(-10px);
+    transition:0.25s;
+}

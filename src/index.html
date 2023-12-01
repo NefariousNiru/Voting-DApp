@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Vote for the better character!</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alata&family=Poppins:wght@600&family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link href = "css/app.css" rel = "stylesheet">
+  </head>
+  <body>
+    <div id="header">Voting</div>
+    <div id="loadingAddress">Loading...</div>
+      <div id = "content">
+        <table class = "table">
+          <thead id="tableheading">
+            <th scope = "col">#</th>
+            <th scope = "col">Name</th>
+            <th scope= "col">Votes</th>
+            <th scope = "col">Flag</th>
+          </thead>
+          <tbody id="contestantResults">
+          </tbody>
+        </table>
+      </div>
+      <div id="form-control">
+        <form onSubmit= "App.castVote(); return false;">
+          <div class="form-group" id="choice">
+            <label for = "contestantSelection" id="csLabel">Select Contestant:</label>
+            <select class= "form-select" id="contestantSelection">Selection options comes here</select>
+          </div>
+          <div id="castingvote">
+            <button type = "submit">Cast your Vote</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div id="contact">
+      <a class = "contactimage" href="https://www.instagram.com/cursed_skank/">
+        <img src="images/Instagram.png" height = 25px width = 25px>
+      </a>
+      <a class = "contactimage" href="https://twitter.com/Cursed_Skank">
+        <img src="images/Twitter.png" height = 25px width =25px>
+      </a>
+      <a class = "contactimage" href="mailto:Nirupomboseroy99@gmail.com">
+        <img src="images/Email.png" height = 25px width = 25px>
+      </a>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/web3.min.js"></script>
+    <script src="js/truffle-contract.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
